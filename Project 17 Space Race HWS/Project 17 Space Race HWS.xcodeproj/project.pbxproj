@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C7BC6F225681276007690AF /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6C7BC6F025681276007690AF /* explosion.sks */; };
+		6C7BC6F325681276007690AF /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6C7BC6F125681276007690AF /* starfield.sks */; };
+		6C855AD525668F8900E3E737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C855AD425668F8900E3E737 /* AppDelegate.swift */; };
+		6C855AD725668F8900E3E737 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6C855AD625668F8900E3E737 /* GameScene.sks */; };
+		6C855ADB25668F8900E3E737 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C855ADA25668F8900E3E737 /* GameScene.swift */; };
+		6C855ADD25668F8900E3E737 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C855ADC25668F8900E3E737 /* GameViewController.swift */; };
+		6C855AE025668F8900E3E737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C855ADE25668F8900E3E737 /* Main.storyboard */; };
+		6C855AE225668F8B00E3E737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C855AE125668F8B00E3E737 /* Assets.xcassets */; };
+		6C855AED25668F8B00E3E737 /* Project_17_Space_Race_HWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C855AEC25668F8B00E3E737 /* Project_17_Space_Race_HWSTests.swift */; };
+		6C855AF825668F8B00E3E737 /* Project_17_Space_Race_HWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C855AF725668F8B00E3E737 /* Project_17_Space_Race_HWSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C855AE925668F8B00E3E737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C855AC925668F8900E3E737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C855AD025668F8900E3E737;
+			remoteInfo = "Project 17 Space Race HWS";
+		};
+		6C855AF425668F8B00E3E737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C855AC925668F8900E3E737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C855AD025668F8900E3E737;
+			remoteInfo = "Project 17 Space Race HWS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C7BC6F025681276007690AF /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		6C7BC6F125681276007690AF /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
+		6C855AD125668F8900E3E737 /* Project 17 Space Race HWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 17 Space Race HWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C855AD425668F8900E3E737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C855AD625668F8900E3E737 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6C855ADA25668F8900E3E737 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6C855ADC25668F8900E3E737 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6C855ADF25668F8900E3E737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C855AE125668F8B00E3E737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C855AE325668F8B00E3E737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C855AE825668F8B00E3E737 /* Project 17 Space Race HWSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 17 Space Race HWSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C855AEC25668F8B00E3E737 /* Project_17_Space_Race_HWSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_17_Space_Race_HWSTests.swift; sourceTree = "<group>"; };
+		6C855AEE25668F8B00E3E737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C855AF325668F8B00E3E737 /* Project 17 Space Race HWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 17 Space Race HWSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C855AF725668F8B00E3E737 /* Project_17_Space_Race_HWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_17_Space_Race_HWSUITests.swift; sourceTree = "<group>"; };
+		6C855AF925668F8B00E3E737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C855ACE25668F8900E3E737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C855AE525668F8B00E3E737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C855AF025668F8B00E3E737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C855AC825668F8900E3E737 = {
+			isa = PBXGroup;
+			children = (
+				6C855AD325668F8900E3E737 /* Project 17 Space Race HWS */,
+				6C855AEB25668F8B00E3E737 /* Project 17 Space Race HWSTests */,
+				6C855AF625668F8B00E3E737 /* Project 17 Space Race HWSUITests */,
+				6C855AD225668F8900E3E737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C855AD225668F8900E3E737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C855AD125668F8900E3E737 /* Project 17 Space Race HWS.app */,
+				6C855AE825668F8B00E3E737 /* Project 17 Space Race HWSTests.xctest */,
+				6C855AF325668F8B00E3E737 /* Project 17 Space Race HWSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C855AD325668F8900E3E737 /* Project 17 Space Race HWS */ = {
+			isa = PBXGroup;
+			children = (
+				6C855AD425668F8900E3E737 /* AppDelegate.swift */,
+				6C855AD625668F8900E3E737 /* GameScene.sks */,
+				6C855ADA25668F8900E3E737 /* GameScene.swift */,
+				6C855ADC25668F8900E3E737 /* GameViewController.swift */,
+				6C855ADE25668F8900E3E737 /* Main.storyboard */,
+				6C855AE125668F8B00E3E737 /* Assets.xcassets */,
+				6C855AE325668F8B00E3E737 /* Info.plist */,
+				6C7BC6F025681276007690AF /* explosion.sks */,
+				6C7BC6F125681276007690AF /* starfield.sks */,
+			);
+			path = "Project 17 Space Race HWS";
+			sourceTree = "<group>";
+		};
+		6C855AEB25668F8B00E3E737 /* Project 17 Space Race HWSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C855AEC25668F8B00E3E737 /* Project_17_Space_Race_HWSTests.swift */,
+				6C855AEE25668F8B00E3E737 /* Info.plist */,
+			);
+			path = "Project 17 Space Race HWSTests";
+			sourceTree = "<group>";
+		};
+		6C855AF625668F8B00E3E737 /* Project 17 Space Race HWSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C855AF725668F8B00E3E737 /* Project_17_Space_Race_HWSUITests.swift */,
+				6C855AF925668F8B00E3E737 /* Info.plist */,
+			);
+			path = "Project 17 Space Race HWSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C855AD025668F8900E3E737 /* Project 17 Space Race HWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C855AFC25668F8B00E3E737 /* Build configuration list for PBXNativeTarget "Project 17 Space Race HWS" */;
+			buildPhases = (
+				6C855ACD25668F8900E3E737 /* Sources */,
+				6C855ACE25668F8900E3E737 /* Frameworks */,
+				6C855ACF25668F8900E3E737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 17 Space Race HWS";
+			productName = "Project 17 Space Race HWS";
+			productReference = 6C855AD125668F8900E3E737 /* Project 17 Space Race HWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C855AE725668F8B00E3E737 /* Project 17 Space Race HWSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C855AFF25668F8B00E3E737 /* Build configuration list for PBXNativeTarget "Project 17 Space Race HWSTests" */;
+			buildPhases = (
+				6C855AE425668F8B00E3E737 /* Sources */,
+				6C855AE525668F8B00E3E737 /* Frameworks */,
+				6C855AE625668F8B00E3E737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C855AEA25668F8B00E3E737 /* PBXTargetDependency */,
+			);
+			name = "Project 17 Space Race HWSTests";
+			productName = "Project 17 Space Race HWSTests";
+			productReference = 6C855AE825668F8B00E3E737 /* Project 17 Space Race HWSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C855AF225668F8B00E3E737 /* Project 17 Space Race HWSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C855B0225668F8B00E3E737 /* Build configuration list for PBXNativeTarget "Project 17 Space Race HWSUITests" */;
+			buildPhases = (
+				6C855AEF25668F8B00E3E737 /* Sources */,
+				6C855AF025668F8B00E3E737 /* Frameworks */,
+				6C855AF125668F8B00E3E737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C855AF525668F8B00E3E737 /* PBXTargetDependency */,
+			);
+			name = "Project 17 Space Race HWSUITests";
+			productName = "Project 17 Space Race HWSUITests";
+			productReference = 6C855AF325668F8B00E3E737 /* Project 17 Space Race HWSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C855AC925668F8900E3E737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6C855AD025668F8900E3E737 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					6C855AE725668F8B00E3E737 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6C855AD025668F8900E3E737;
+					};
+					6C855AF225668F8B00E3E737 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6C855AD025668F8900E3E737;
+					};
+				};
+			};
+			buildConfigurationList = 6C855ACC25668F8900E3E737 /* Build configuration list for PBXProject "Project 17 Space Race HWS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C855AC825668F8900E3E737;
+			productRefGroup = 6C855AD225668F8900E3E737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C855AD025668F8900E3E737 /* Project 17 Space Race HWS */,
+				6C855AE725668F8B00E3E737 /* Project 17 Space Race HWSTests */,
+				6C855AF225668F8B00E3E737 /* Project 17 Space Race HWSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C855ACF25668F8900E3E737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C855AE025668F8900E3E737 /* Main.storyboard in Resources */,
+				6C7BC6F225681276007690AF /* explosion.sks in Resources */,
+				6C855AD725668F8900E3E737 /* GameScene.sks in Resources */,
+				6C855AE225668F8B00E3E737 /* Assets.xcassets in Resources */,
+				6C7BC6F325681276007690AF /* starfield.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C855AE625668F8B00E3E737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C855AF125668F8B00E3E737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C855ACD25668F8900E3E737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C855ADB25668F8900E3E737 /* GameScene.swift in Sources */,
+				6C855ADD25668F8900E3E737 /* GameViewController.swift in Sources */,
+				6C855AD525668F8900E3E737 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C855AE425668F8B00E3E737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C855AED25668F8B00E3E737 /* Project_17_Space_Race_HWSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C855AEF25668F8B00E3E737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C855AF825668F8B00E3E737 /* Project_17_Space_Race_HWSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C855AEA25668F8B00E3E737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C855AD025668F8900E3E737 /* Project 17 Space Race HWS */;
+			targetProxy = 6C855AE925668F8B00E3E737 /* PBXContainerItemProxy */;
+		};
+		6C855AF525668F8B00E3E737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C855AD025668F8900E3E737 /* Project 17 Space Race HWS */;
+			targetProxy = 6C855AF425668F8B00E3E737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C855ADE25668F8900E3E737 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C855ADF25668F8900E3E737 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C855AFA25668F8B00E3E737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C855AFB25668F8B00E3E737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C855AFD25668F8B00E3E737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTVSGRSC5J;
+				INFOPLIST_FILE = "Project 17 Space Race HWS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exp.Project-17-Space-Race-HWS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6C855AFE25668F8B00E3E737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTVSGRSC5J;
+				INFOPLIST_FILE = "Project 17 Space Race HWS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exp.Project-17-Space-Race-HWS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6C855B0025668F8B00E3E737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTVSGRSC5J;
+				INFOPLIST_FILE = "Project 17 Space Race HWSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exp.Project-17-Space-Race-HWSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 17 Space Race HWS.app/Project 17 Space Race HWS";
+			};
+			name = Debug;
+		};
+		6C855B0125668F8B00E3E737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTVSGRSC5J;
+				INFOPLIST_FILE = "Project 17 Space Race HWSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exp.Project-17-Space-Race-HWSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 17 Space Race HWS.app/Project 17 Space Race HWS";
+			};
+			name = Release;
+		};
+		6C855B0325668F8B00E3E737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTVSGRSC5J;
+				INFOPLIST_FILE = "Project 17 Space Race HWSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exp.Project-17-Space-Race-HWSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project 17 Space Race HWS";
+			};
+			name = Debug;
+		};
+		6C855B0425668F8B00E3E737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTVSGRSC5J;
+				INFOPLIST_FILE = "Project 17 Space Race HWSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Exp.Project-17-Space-Race-HWSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project 17 Space Race HWS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C855ACC25668F8900E3E737 /* Build configuration list for PBXProject "Project 17 Space Race HWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C855AFA25668F8B00E3E737 /* Debug */,
+				6C855AFB25668F8B00E3E737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C855AFC25668F8B00E3E737 /* Build configuration list for PBXNativeTarget "Project 17 Space Race HWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C855AFD25668F8B00E3E737 /* Debug */,
+				6C855AFE25668F8B00E3E737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C855AFF25668F8B00E3E737 /* Build configuration list for PBXNativeTarget "Project 17 Space Race HWSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C855B0025668F8B00E3E737 /* Debug */,
+				6C855B0125668F8B00E3E737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C855B0225668F8B00E3E737 /* Build configuration list for PBXNativeTarget "Project 17 Space Race HWSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C855B0325668F8B00E3E737 /* Debug */,
+				6C855B0425668F8B00E3E737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C855AC925668F8900E3E737 /* Project object */;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5D577CF1-D6EB-462C-9970-B75EC79C10EB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD91D500-DA16-4440-92A4-B557F13CAAF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HWS Project 29 Exploding Monkeys/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "GameViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BD91D500-DA16-4440-92A4-B557F13CAAF3 - 1751377f74a39845"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HWS_Project_29_Exploding_Monkeys.GameViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HWS_Project_29_Exploding_Monkeys.GameViewController"
+                  moduleName = "HWS Project 29 Exploding Monkeys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srx/Documents/Hacking%20With%20Swift%20Projects/HWS%20Project%2029%20Exploding%20Monkeys/HWS%20Project%2029%20Exploding%20Monkeys/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1169">
+               </Location>
+               <Location
+                  uuid = "BD91D500-DA16-4440-92A4-B557F13CAAF3 - 337c4a21d731698d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HWS_Project_29_Exploding_Monkeys.GameViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HWS_Project_29_Exploding_Monkeys.GameViewController&gt;"
+                  moduleName = "HWS Project 29 Exploding Monkeys"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srx/Documents/Hacking%20With%20Swift%20Projects/HWS%20Project%2029%20Exploding%20Monkeys/HWS%20Project%2029%20Exploding%20Monkeys/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
